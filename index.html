@@ -235,6 +235,7 @@ updateCarousel();
 
 </script>
  
+ 
   <!-- Character Portal Section -->
   <section id="character-portal" class="character-portal">
     <h2 class="fade-in">Character Portal</h2><p class="fade-in" style="text-align: center; font-size: 1.2em; color: black; width: 50%; margin: 0 auto; padding-bottom: 30px;">
@@ -291,6 +292,18 @@ updateCarousel();
     document.addEventListener('DOMContentLoaded', handleScroll);
   </script>
   
+<script>
+if (navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')) {
+  const caption = document.querySelector('.carousel-caption');
+  if (caption) {
+    caption.style.top = '0%'; // Adjust specifically for Safari
+  }
+}
+
+
+</script>
+
+
   
 </body>
 </html>

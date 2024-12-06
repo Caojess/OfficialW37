@@ -3,6 +3,7 @@
 
 /* General Reset */
 body {
+  
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
@@ -98,7 +99,7 @@ z-index: 9999; /* Ensure it stays on top of everything
   }
   
   .hero-video {
-    margin-top: 900px;
+    margin-top: 0px;
     flex: 1;
     background-color: white; /* White background */
     display: flex;
