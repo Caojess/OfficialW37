@@ -330,7 +330,7 @@ z-index: 9999; /* Ensure it stays on top of everything
 /* Caption Styling */
 .carousel-caption {
   position: absolute;
-  top: 5%; /* Adjusted to be above the carousel */
+  top: 10%; /* Adjusted to be above the carousel */
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.5em;
