@@ -765,7 +765,7 @@ z-index: 9999; /* Ensure it stays on top of everything
   color: #fff; /* White text for contrast */
   z-index: 2; /* Ensure content is above overlay */
   position: relative; /* Enables the use of 'top' */
-  top: 80px; /* Adjust this value to move the container down */
+  top: 20px; /* Adjust this value to move the container down */
 }
 
 
