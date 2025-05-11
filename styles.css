@@ -631,19 +631,19 @@ z-index: 9999; /* Ensure it stays on top of everything
   transform: translateY(-23px) translateX(-25px); /* Correct transformation */
   width: 400px; /* Resize image width */
   height: 590px;
-  max-width: none; /* Ensure max-width doesn’t override the width */
+  max-width: none; /* Ensure max-width doesn't override the width */
 }
 
 .character-column:nth-child(2) img {
   transform: translateY(-9px) translateX(-25px); /* Correct transformation */
   width: 370px; /* Resize image width */
-  max-width: none; /* Ensure max-width doesn’t override the width */
+  max-width: none; /* Ensure max-width doesn't override the width */
 }
 
 .character-column:nth-child(3) img{
   transform: translateY(23px) translateX(-25px); /* Correct transformation */
   width: 330px; /* Resize image width */
-  max-width: none; /* Ensure max-width doesn’t override the width */
+  max-width: none; /* Ensure max-width doesn't override the width */
   height: 530px;
 }
 
@@ -792,8 +792,15 @@ z-index: 9999; /* Ensure it stays on top of everything
   z-index: 2; /* Ensure it stays above the overlay */
 }
 
+.team-photo {
+  width: 200px;  /* Adjust size as needed */
+  height: 300px; /* Should be same as width for perfect circle */
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid #000000; /* Optional: adds a border in your brand color */
+}
 
- 
   
   /* Mobile-Specific Changes */
   @media (max-width: 768px) {
